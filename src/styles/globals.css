@@ -10,3 +10,14 @@ body {
 .video-section video {
     width: 100%;
 }
+
+h1 {
+    color: #ffffff;
+}
+
+.video-copy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
