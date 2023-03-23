@@ -1,8 +1,9 @@
+import Video from "@/components/Video"
 
-function index() {
+function Home() {
   return (
-    <div>index</div>
+    <Video />
   )
 }
 
-export default index
+export default Home
