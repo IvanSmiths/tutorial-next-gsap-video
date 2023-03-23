@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.video-section {
+    position: relative;
+    width: 100%;
+}
+
+.video-section video {
+    width: 100%;
+}

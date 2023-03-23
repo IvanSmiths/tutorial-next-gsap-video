@@ -1,7 +1,9 @@
 
 function Video() {
     return (
-        <div>Video</div>
+        <div className="video-section">
+            <video src="/video.mp4" loop autoPlay muted></video>
+        </div>
     )
 }
 
