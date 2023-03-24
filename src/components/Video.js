@@ -9,7 +9,7 @@ function Video() {
     gsap.registerPlugin(ScrollTrigger);
 
     const videoRef = useRef(null)
-    const redRef = useRef(null)
+    const textRef = useRef(null)
     const triggerRef = useRef(null)
 
     useEffect(() => {
@@ -24,7 +24,7 @@ function Video() {
             }
         );
         tl.to(
-            redRef.current,
+            textRef.current,
             {
                 translateY: -300
             },
@@ -43,7 +43,7 @@ function Video() {
         <div ref={triggerRef} className="video-section">
             <video ref={videoRef} src="/video.mp4" loop autoPlay muted></video>
             <div className='video-copy'>
-                <h1 ref={redRef} className={bebas.className}>RED</h1>
+                <h1 ref={textRef} className={bebas.className}>RED</h1>
             </div>
         </div>
     )
